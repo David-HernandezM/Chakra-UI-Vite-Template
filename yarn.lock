@@ -7355,6 +7355,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:12.0.0":
+  version: 12.0.0
+  resolution: "commander@npm:12.0.0"
+  checksum: e51cac1d1d0aa1f76581981d2256a9249497e08f5a370bf63b0dfc7e76a647fc8cbc3ddd507928f2bdca6c514c83834e87e2687ace2fe2fc7cc7e631bf80f83d
+  languageName: node
+  linkType: hard
+
 "commander@npm:^4.0.0":
   version: 4.1.1
   resolution: "commander@npm:4.1.1"
@@ -11106,6 +11113,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sails-js@npm:0.1.4":
+  version: 0.1.4
+  resolution: "sails-js@npm:0.1.4"
+  dependencies:
+    commander: "npm:12.0.0"
+  peerDependencies:
+    "@gear-js/api": ^0.38.0
+    "@polkadot/api": ^11.0.1
+    "@polkadot/types": ^11.0.1
+  bin:
+    sails-js: app.js
+  checksum: 3283b1fd5e9cf661c3ed415b36cc15562e2fbd7277648717e84f4ef5bd8806043196dde3f168669f323d690f992346c18b282676b3c0ea87bbd6d097d956ab35
+  languageName: node
+  linkType: hard
+
 "sass@npm:1.62.0":
   version: 1.62.0
   resolution: "sass@npm:1.62.0"
@@ -11664,6 +11686,7 @@ __metadata:
     react-hook-form: "npm:7.51.5"
     react-router-dom: "npm:6.22.2"
     react-transition-group: "npm:4.4.5"
+    sails-js: "npm:0.1.4"
     sass: "npm:1.62.0"
     tailwindcss: "npm:3.3.2"
     typescript: "npm:4.9.5"

@@ -2,6 +2,7 @@ import { HexString, MessageSendOptions, ProgramMetadata, decodeAddress, GasInfo 
 import { useApi } from '@gear-js/react-hooks';
 import { AnyJson, AnyNumber, IKeyringPair, Signer } from '@polkadot/types/types';
 import { web3FromSource } from '@polkadot/extension-dapp';
+import { Sails } from 'sails-js';
 
 /**
  * custom hook for handling messages, reading status, etc.
@@ -296,7 +297,6 @@ import { web3FromSource } from '@polkadot/extension-dapp';
                 console.log("Error while sign transaction");
                 reject("Error while sign transaction");
             }
-            
         });
     }
 
